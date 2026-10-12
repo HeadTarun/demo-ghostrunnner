@@ -13,7 +13,7 @@
 const http = require('http');
 const url = require('url');
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3100;
 
 function renderCartHtml(isDrift = false, isRegression = false) {
   const buttonLabel = isDrift ? 'Complete Order' : 'Checkout';
