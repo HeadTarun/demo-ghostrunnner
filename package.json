@@ -1,0 +1,13 @@
+{
+  "name": "acme-cloud-store-demo",
+  "version": "1.0.0",
+  "description": "Demo application for GhostRunner self-healing test automation",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "npx playwright test"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.49.0"
+  }
+}
